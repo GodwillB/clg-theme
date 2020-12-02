@@ -1,4 +1,4 @@
-<?php
+ 	 	<?php
 /**
  * The header for our theme
  *
@@ -48,12 +48,16 @@
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'clg' ); ?></button>
 			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
+			wp_nav_menu( array(
+			    'theme_location'	=> 'primary',
+			    'depth'				=> 1, // 1 = with dropdowns, 0 = no dropdowns.
+				'container'			=> 'div',
+				'container_class'	=> 'collapse navbar-collapse',
+				'container_id'		=> 'bs-example-navbar-collapse-1',
+				'menu_class'		=> 'navbar-nav mr-auto',
+			    'fallback_cb'		=> 'WP_Bootstrap_Navwalker::fallback',
+			    'walker'			=> new WP_Bootstrap_Navwalker()
+			) );
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
