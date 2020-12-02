@@ -26,7 +26,8 @@
 	<nav class="navbar navbar-expand-lg navbar-dark black-background py-4 static-top">
 		<div class="container">
 			<a class="navbar-brand text-uppercase" href="#">
-              	<img src="img/logo.png" alt="">Capital Law Group
+              	<?php the_custom_logo();?>
+              	<h4 class="text-white">Capital Law Group</h4>
           	</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

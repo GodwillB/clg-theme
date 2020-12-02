@@ -39,6 +39,11 @@ body{
 	font-size: 13px;
 }
 
+nav h4{
+	font-size: 24px;
+	padding: 8px;
+}
+
 /*header
 =======================*/
 .carousel-item{
