@@ -194,18 +194,33 @@
 			<div class="col-md-1 black border-prac"></div>
 		</div>
 		<div class="row py-5 text-center owl-carousel owl-theme" id="owl-test">
-			<div>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-			</div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-			</div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-			</div>
-			<div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-			</div>
+			<?
+			// Custom WP query testimonials
+			$args_testimonials = array(
+				'post_type' => array('testimonials');
+				'posts_per_page' => -1,
+				'order' => 'ASC',
+			);
+
+			$testimonials = new WP_Query( $args_testimonials );
+
+			if ( $testimonials->have_posts() ) {
+				while ( $testimonials->have_posts() ) {
+					$testimonials->the_post();
+					?>
+
+					<div>
+						<p><?php echo the_excerpt(); ?></p>
+					</div>
+
+					<?
+				}
+			} else {
+				echo "No record found";
+			}
+
+			wp_reset_postdata();
+			 ?>
 		</div>
 	</div>
 </section>
@@ -238,3 +253,4 @@
 		</div>
 	</div>
 </section>
+

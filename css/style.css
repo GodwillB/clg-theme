@@ -8,11 +8,11 @@ body{
 ==========*/
 @font-face {
   font-family: Helvetica;
-  src: url('Helvetica.ttf');
+  src: url('css/fonts/Helvetica.ttf');
 }
 @font-face {
   font-family: Helvetica-Bold;
-  src: url('Helvetica-Bold.ttf');
+  src: url('css/fonts/Helvetica-Bold.ttf');
 }
 .helvetica-bold{
 	font-family: Helvetica-Bold !important;
