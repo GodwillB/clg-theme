@@ -189,3 +189,15 @@ footer ::placeholder {
 	height: 15px !important;
 	width:15px !important;
 }
+.header-about{
+	/*margin: 40px;*/
+	padding: 100px;
+	 background: url(https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=905&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.border-about{
+	border-bottom: 4px solid white;
+}
