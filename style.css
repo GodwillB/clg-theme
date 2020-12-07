@@ -191,12 +191,13 @@ footer ::placeholder {
 }
 .header-about{
 	/*margin: 40px;*/
-	padding: 100px;
+	/*padding: 100px;*/
 	 background: url(https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=905&q=80) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 .border-about{
 	border-bottom: 4px solid white;
@@ -211,10 +212,10 @@ footer ::placeholder {
     height: 7px;
     width: 50px;
     content: '';
-    background:	
     margin-left: auto;
     margin-right: auto;
     bottom: 6px;
+    background:	#FCB855;
 }
 .about-intro img{
 	padding: 30px;
@@ -228,7 +229,7 @@ footer ::placeholder {
     -ms-flex-align: center;
     align-items: center;
     background: #fff;
-    box-shadow: 0 0 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 27px rgb(0 0 0 / 65%);
     position: relative;
     top: 68px;	
 
@@ -239,7 +240,41 @@ footer ::placeholder {
     object-fit: cover;
 	
 }
+.intro-position-text{
+	padding: 67px;
+}
+.intro-position-text h2{
+	border-left: 9px solid  #f5c071;
+	padding-left: 10px;
+}
 .mission-about{
 	/*height: 40vh;*/
 	background-color: black;	
+}
+
+.counter-about{
+	/*height: 40vh;*/
+	/*background-color: black;	*/
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.counter-about h3{
+  transition: --num 5s;
+  counter-set: num var(--num);
+  font: 800 40px system-ui;
+}
+.counter-about h3::after {
+  content: counter(num);
+}
+.counter-about h3:hover {
+  --num: 10;
+}
+.overlay{
+ 	padding: 150px;
+ 	background: rgba(0, 0, 0, 0.7);
 }

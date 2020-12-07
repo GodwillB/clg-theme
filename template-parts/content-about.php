@@ -1,13 +1,15 @@
 <section class="header-about">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-12">
-				<h2 class="mx-auto text-center text-white"><?php the_title(); ?></h2>
+	<div class="overlay">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<h2 class="mx-auto text-center text-white"><?php the_title(); ?></h2>
+				</div>
 			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-1">
-				<div class="border-about"></div>
+			<div class="row justify-content-center">
+				<div class="col-md-1">
+					<div class="border-about"></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -21,14 +23,12 @@
 					<span class="separator secondary-color"></span>
 
 				</h2>
-				<h3>Mission</h3>
-				<p>To be a top 5 transactional law firm in Kenya by end of 2020.</p>
 			</div>
 			<div class="col-md-8">
 				<div class="row py-4">
 					<div class="col-md-4 p-5">
 						<div class="row">
-							<img src="<?php echo get_bloginfo('template_url') ?>/img/dispute.svg" class="img-fluid">
+							<img src="<?php echo get_bloginfo('template_url') ?>/img/grade.svg" class="img-fluid">
 						</div>
 						<div class="row justify-content-center"><h2 class="text-center secondary-color">Excellence</h2></div>
 						<div class="row justify-content-center">
@@ -37,7 +37,7 @@
 					</div>
 					<div class="col-md-4 p-5">
 						<div class="row ">
-							<img src="<?php echo get_bloginfo('template_url') ?>/img/dispute.svg" class="img-fluid">
+							<img src="<?php echo get_bloginfo('template_url') ?>/img/honest.svg" class="img-fluid">
 						</div>
 						<div class="row justify-content-center"><h2 class="text-center secondary-color">Integrity</h2></div>
 						<div class="row justify-content-center">
@@ -46,7 +46,7 @@
 					</div>
 					<div class="col-md-4 p-5">
 						<div class="row">
-							<img src="<?php echo get_bloginfo('template_url') ?>/img/dispute.svg" class="img-fluid">
+							<img src="<?php echo get_bloginfo('template_url') ?>/img/business-and-finance.svg" class="img-fluid">
 						</div>
 						<div class="row justify-content-center"><h2 class="text-center secondary-color">Charity</h2></div>
 						<div class="row justify-content-center text-center">
@@ -65,10 +65,10 @@
 		<div class="intro-position" >
 			<div class="row">
 				<div class="col-md-6">
-					<img src="https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=905&q=80" class="img-fluid">
+					<img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="img-fluid">
 				</div>
-				<div class="col-md-6">
-					<div class="intro-position-text p-4">
+				<div class="col-md-6 col-sm-offset-6">
+					<div class="intro-position-text px-4">
 						<h2 class="">The Firm</h2>
 
 						<p>We are a transactional law firm based in Nairobi. Our practice areas are capital markets, corporate finance, mergers and acquisitions, business structuring (domestic and offshore), mining, property and contracts. We serve over half of the investment banks and stockbrokers licensed in Kenya as well as the central capital markets institutions. We also provide services to Fund Managers, PE Funds, independent financial advisors, investors (Kenyan and foreign) and real estate developers. </p>
@@ -112,20 +112,24 @@
 	</div>
 </section>
 
-<section class="counter-about">
+<section class="counter-about py-5">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				
+			<div class="col-md-3 p-5">
+				<h3 class="text-center"></h3>
+				<P class="text-center">Years of Experience</P>
 			</div>
-			<div class="col-md-3">
-				
+			<div class="col-md-3 p-5">
+				<h3 class="text-center"></h3>
+				<P class="text-center">Years of Experience</P>
 			</div>
-			<div class="col-md-3">
-				
+			<div class="col-md-3 p-5">
+				<h3 class="text-center"></h3>
+				<P class="text-center">Years of Experience</P>
 			</div>
-			<div class="col-md-3">
-				
+			<div class="col-md-3 p-5">
+				<h3 class="text-center"></h3>
+				<P class="text-center">Years of Experience</P>
 			</div>
 		</div>
 	</div>
