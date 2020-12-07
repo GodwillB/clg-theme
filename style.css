@@ -278,3 +278,17 @@ footer ::placeholder {
  	padding: 150px;
  	background: rgba(0, 0, 0, 0.7);
 }
+.prac-areas-single a{
+	color:#f5c071 !important;
+}
+.prac-areas-single h5{
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+}		
+
+a:hover, a:focus, a.active {
+    text-decoration: none;
+    outline: none;
+    color:#f5c071;
+}
