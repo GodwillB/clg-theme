@@ -27,7 +27,7 @@
 			<div class="col-md-8">
 				<div class="row py-4">
 					<div class="col-md-4 p-5">
-						<div class="row">
+						<div class="row  justify-content-center">
 							<img src="<?php echo get_bloginfo('template_url') ?>/img/grade.svg" class="img-fluid">
 						</div>
 						<div class="row justify-content-center"><h2 class="text-center secondary-color">Excellence</h2></div>
@@ -36,7 +36,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 p-5">
-						<div class="row ">
+						<div class="row justify-content-center ">
 							<img src="<?php echo get_bloginfo('template_url') ?>/img/honest.svg" class="img-fluid">
 						</div>
 						<div class="row justify-content-center"><h2 class="text-center secondary-color">Integrity</h2></div>
@@ -45,7 +45,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 p-5">
-						<div class="row">
+						<div class="row justify-content-center">
 							<img src="<?php echo get_bloginfo('template_url') ?>/img/business-and-finance.svg" class="img-fluid">
 						</div>
 						<div class="row justify-content-center"><h2 class="text-center secondary-color">Charity</h2></div>

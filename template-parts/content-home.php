@@ -193,34 +193,17 @@
 		<div class="row justify-content-center">
 			<div class="col-md-1 black border-prac"></div>
 		</div>
-		<div class="row py-5 text-center owl-carousel owl-theme" id="owl-test">
-			<?
-			// Custom WP query testimonials
-			$args_testimonials = array(
-				'post_type' => array('testimonials');
-				'posts_per_page' => -1,
-				'order' => 'ASC',
-			);
-
-			$testimonials = new WP_Query( $args_testimonials );
-
-			if ( $testimonials->have_posts() ) {
-				while ( $testimonials->have_posts() ) {
-					$testimonials->the_post();
-					?>
-
-					<div>
-						<p><?php echo the_excerpt(); ?></p>
-					</div>
-
-					<?
-				}
-			} else {
-				echo "No record found";
-			}
-
-			wp_reset_postdata();
-			 ?>
+		<div class="row py-5 text-center" id="">
+			<div class="col-md" >
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+			</div>
+			<div class="col-md">
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+			</div>
+			<div class="col-md">
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+			</div>
+			<div>
 		</div>
 	</div>
 </section>
@@ -234,21 +217,18 @@
 			<div class="col-md-1 black border-prac"></div>
 		</div>
 
-		<div class="row owl-carousel owl-theme" id="owl-two">
-			<div class="">
-				<img src="img/2.png" class="img-fluid">
+		<div class="row py-5" id="">
+			<div class="col-md-3">
+				<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png"  class="img-fluid">
 			</div>
-			<div class="">
-				<img src="img/2.png" class="img-fluid">
+			<div class="col-md-3">
+				<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png"  class="img-fluid">
 			</div>
-			<div class="">
-				<img src="img/2.png" class="img-fluid">
+			<div class="col-md-3">
+				<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png"  class="img-fluid">
 			</div>
-			<div class="">
-				<img src="img/2.png" class="img-fluid">
-			</div>
-			<div class="">
-				<img src="img/2.png" class="img-fluid">
+			<div class="col-md-3">
+				<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png"  class="img-fluid">
 			</div>
 		</div>
 	</div>

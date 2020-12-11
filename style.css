@@ -39,6 +39,10 @@ body{
 	font-size: 13px;
 }
 
+.navbar-nav .active a {
+    color: #FCB855 !important;
+}
+
 nav h4{
 	font-size: 24px;
 	padding: 8px;
@@ -116,9 +120,10 @@ footer button{
 	width: 117px;
     border-radius: 38px !important;
 }
-.form-control{
-	background-color: black;
-    border: #FCB855 2px solid;
+
+footer .form-control{
+	background-color: black !important;
+    border: #FCB855 2px solid !important;
     border-radius: 12px;
 }
 footer ul li,footer ul li a {
@@ -177,6 +182,11 @@ footer ::placeholder {
 	height: 15px !important;
 	width:15px !important;
 
+}
+.about-intro img{
+	filter: invert(98%) sepia(68%) saturate(7226%) hue-rotate(307deg) brightness(104%) contrast(92%);
+	width: 150px ;
+	height: ;
 }
 .owl-theme .owl-dots .owl-dot .active span{
 	background-color: red !important;
@@ -248,8 +258,10 @@ footer ::placeholder {
 	padding-left: 10px;
 }
 .mission-about{
-	/*height: 40vh;*/
 	background-color: black;	
+}
+.mission-about h2{
+	font-weight: 700;	
 }
 
 .counter-about{
@@ -279,7 +291,8 @@ footer ::placeholder {
  	background: rgba(0, 0, 0, 0.7);
 }
 .prac-areas-single a{
-	color:#f5c071 !important;
+	color:black !important;
+	font-weight: 400;
 }
 .prac-areas-single h5{
 	font-size: 20px;
@@ -291,4 +304,84 @@ a:hover, a:focus, a.active {
     text-decoration: none;
     outline: none;
     color:#f5c071;
+}
+
+.attachment-awsm_team{
+	min-height: 300px;
+    max-height: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.awsm-grid-card{
+	margin: 0px;
+}
+.awsm-modal{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+..modal-style.style-1 figcaption{
+	background-color:  #f5c071 !important;
+}
+.contact-info{
+	padding: 42px 35px;
+    border: 1px solid #e5e5e5;
+}
+.contact-info h3{
+	font-weight: 700;
+}
+.form-control{
+	background: 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-radius: 0;
+    box-shadow: 0;
+    height: 45px;
+    padding: 4px 0;
+    font-size: 14px;
+}
+.btn, .job-manager-application-wrapper .application .application_button, .single_job_listing .application .application_button{
+	color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    min-width: 170px;
+    white-space: nowrap;
+    /*font-family: "Lora", serif;*/
+    background: #f5c071;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0 10px;
+    line-height: 49px;
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    border:none;
+}
+input:-internal-autofill-selected{
+	    background-color: none !important;
+}
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+.job_filters, .search_jobs,.company_logo{
+	display: none !important;
+}
+.job_listings h3, .company, .meta, .location{
+	color: black;
+	font-weight: 700;
+}
+#55{
+	border: 9px solid red;
+    padding: 8px;
+}
+.widget-area{
+	display: none;
+}
+.meta, .position h3{
+	list-style-type:none !important;
 }
