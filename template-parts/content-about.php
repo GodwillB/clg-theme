@@ -116,20 +116,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 p-5">
-				<h3 class="text-center"></h3>
-				<P class="text-center">Years of Experience</P>
+				<h2 class="text-center">777</h2>
+				<P class="text-center">Case Study</P>
 			</div>
 			<div class="col-md-3 p-5">
-				<h3 class="text-center"></h3>
-				<P class="text-center">Years of Experience</P>
+				<h2 class="text-center">151</h2>
+				<P class="text-center">Happy Clients</P>
 			</div>
 			<div class="col-md-3 p-5">
-				<h3 class="text-center"></h3>
-				<P class="text-center">Years of Experience</P>
+				<h2 class="text-center">98%</h2>
+				<P class="text-center">Won Cases</P>
 			</div>
 			<div class="col-md-3 p-5">
-				<h3 class="text-center"></h3>
-				<P class="text-center">Years of Experience</P>
+				<h2 class="text-center">20+</h2>
+				<P class="text-center">Skillful Lawyers</P>
 			</div>
 		</div>
 	</div>
