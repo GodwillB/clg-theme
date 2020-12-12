@@ -33,12 +33,12 @@
 
 					?>
 
-					<div class="col-md-4 align-items-center">
+					<div class="col-md-4 p-3 align-items-center">
 						<div class="prac-areas-single">
 							  <div class="card-body">
 							    <h5 class="card-title "><?php echo the_title(); ?></h5>
 							    <p class="card-text text-white"><?php echo get_excerpt(); ?></p>
-							    <a href="<?php echo the_permalink(); ?>" class="" style=" display: block; margin: 0 auto;">Read More
+							    <a href="<?php echo the_permalink(); ?>" class="secondary-color" style=" display: block; margin: 0 auto;">Read More
 							    </a>
 							  </div>
 						</div>

@@ -39,19 +39,19 @@
                                <a href="" class="secondary-color">Home</a>
                            </li>
                            <li>
-                               <a href="" class="text-white">About</a>
+                               <a href="<?php echo home_url('index.php/about'); ?>" class="text-white">About</a>
                            </li>
                            <li>
-                               <a href="" class="secondary-color">Our team</a>
+                               <a href="<?php echo home_url('index.php/our-team'); ?>" class="secondary-color">Our team</a>
                            </li>
                            <li>
-                               <a href="" class="text-white">Careers</a>
+                               <a href="<?php echo home_url('index.php/careers'); ?>" class="text-white">Careers</a>
                            </li>
                            <li>
-                               <a href="" class="secondary-color">CSR</a>
+                               <a href="<?php echo home_url('index.php/contact-us'); ?>" class="secondary-color">CSR</a>
                            </li>
                             <li>
-                               <a href="" class="text-white">Contact Us</a>
+                               <a href="<?php echo home_url('index.php/contact-us'); ?>" class="text-white">Contact Us</a>
                            </li>
                        </ul> 
                    </div>
@@ -60,22 +60,22 @@
                         <div class="col-md-3 border-special"></div>
                        <ul class="py-4">
                            <li>
-                               <a href="" class="secondary-color">Cooperate Finance</a>
+                               <a href="<?php echo home_url('/index.php/practice-areas-pt/cooperate-finance/'); ?>" class="secondary-color">Cooperate Finance</a>
                            </li>
                            <li>
-                               <a href="" class="text-white">Capital Markets</a>
+                               <a href="<?php echo home_url('/index.php/practice-areas-pt/capital-markets'); ?>" class="text-white">Capital Markets</a>
                            </li>
                            <li>
-                               <a href=""class="secondary-color">Banking</a>
+                               <a href="<?php echo home_url('/index.php/practice-areas-pt/banking'); ?>"class="secondary-color">Banking</a>
                            </li>
                            <li>
-                               <a href="" class="text-white">Registration and Compliance</a>
+                               <a href="<?php echo home_url('/index.php/practice-areas-pt/banking'); ?>" class="text-white">Registration and Compliance</a>
                            </li>
                            <li>
-                               <a href="" class="secondary-color">Real Estate</a>
+                               <a href="<?php echo home_url('/practice-areas-pt/capital-markets'); ?>" class="secondary-color">Real Estate</a>
                            </li>
                             <li>
-                               <a href="" class="text-white">Dispute Resolution</a>
+                               <a href="<?php echo home_url('/practice-areas-pt/capital-markets'); ?>" class="text-white">Dispute Resolution</a>
                            </li>
                        </ul> 
                    </div>
@@ -86,10 +86,10 @@
 
                            <li class="secondary-color">
                                <p>No. 5 Swiss Cottages</p>
-                               <p>(Opp. Prime Bank)</p>
+                               <p>(Opp. Prime Bank),  Riverside Drive</p>
                            </li>
                            <li class="text-white">
-                               <p>Riverside Drive</p>
+                               <p>P. O. Box 10997-00100</p>
                            </li>
                            <li class="secondary-color">
                                <p>Nairobi Kenya</p>
@@ -98,7 +98,7 @@
                               <p>info@clg700.com</p>
                            </li>
                            <li class="secondary-color">
-                              <p>(+254) 020 5201656/ 0733 222299</p>
+                              <p>Tel: +254 733 222299 (Landline: +254 020 5201656)</p>
                            </li>
                        </ul> 
                    </div>

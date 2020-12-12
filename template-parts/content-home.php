@@ -38,7 +38,7 @@
 
 				    	<p class="card-text pt-4 text-white">Inspired by the African Honey Bee, we work hard as one inspired team to produce ﬁne results for our clients. We enjoy toasting with our client after closing a good deal. We enjoy winning a good case. We enjoy knowing more.</p>
 				    	<div class="row justify-content-center">
-				    		<a href="#" class="btn text-center my-4">Read More</a>
+				    		<a href="<?php echo home_url('index.php/about'); ?>" class="btn text-center my-4">Read More</a>
 				    	</div>
 
 				    	
@@ -120,7 +120,7 @@
 		</div>
 		<div class="row py-4">
 			<div class="col-md-4">
-				<div class="card py-4 px-2" style="">
+				<div class="card py-4 px-2 animate__animated animate__fadeInDown" style="">
 				  <div class="card-body">
 				  	<img class="img-fluid mx-auto d-block filter-secondary" src="<?php echo get_bloginfo('template_url') ?>/img/bank.svg"/>
 				    <h5 class="card-title text-center">Cooperate Finance</h5>
@@ -130,7 +130,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="card py-4 px-2" style="">
+				<div class="card py-4 px-2 animate__animated animate__fadeInDown" style="">
 				  <div class="card-body">
 				  	<img class="img-fluid mx-auto d-block filter-secondary" src="<?php echo get_bloginfo('template_url') ?>/img/stats.svg"/>
 				    <h5 class="card-title text-center">Capital Markets</h5>
@@ -140,7 +140,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="card py-4 px-2" style="">
+				<div class="card animate__animated animate__fadeInDown py-4 px-2" style="">
 				  <div class="card-body">
 				  	<img class="img-fluid mx-auto d-block filter-secondary" src="<?php echo get_bloginfo('template_url') ?>/img/bank.svg"/>
 				    <h5 class="card-title text-center">Banking</h5>
@@ -152,9 +152,9 @@
 		</div>
 		<div class="row py-4">
 			<div class="col-md-4">
-				<div class="card py-4 px-2">
+				<div class="card animate__animated animate__fadeInDown py-4 px-2">
 				  <div class="card-body">
-				  	<img class="img-fluid mx-auto d-block filter-secondary" src="<?php echo get_bloginfo('template_url') ?>/img/registration.svg"/>
+				  	<img class="img-fluid  mx-auto d-block filter-secondary" src="<?php echo get_bloginfo('template_url') ?>/img/registration.svg"/>
 				    <h5 class="card-title text-center">Registration and Compliance</h5>
 				    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
 				    <p class="card-text text-center">We are well experienced in setting up domestic and offshore business and non-business entities. These entities include, general partnership, Limited Liability Partnership (LLP); Private Companies Limited by Shares; Public Companies Limited by Shares; Company Limited.</p>
@@ -162,7 +162,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="card py-4 px-2">
+				<div class="card py-4 px-2 animate__animated animate__fadeInDown">
 				  <div class="card-body">
 				  	<img class="img-fluid mx-auto d-block filter-secondary" src="<?php echo get_bloginfo('template_url') ?>/img/building.svg"/>
 				    <h5 class="card-title text-center">Real Estate</h5>
@@ -172,7 +172,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="card py-4 px-2">
+				<div class="card py-4 px-2 animate__animated animate__fadeInDown">
 				  <div class="card-body">
 				  	<img class="img-fluid mx-auto d-block filter-secondary" src="<?php echo get_bloginfo('template_url') ?>/img/dispute.svg"/>
 				    <h5 class="card-title text-center">Dispute Resolution</h5>
