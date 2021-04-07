@@ -27,7 +27,7 @@
 
 					<h3 class="font-weight-bold">Office Location</h3>
 					<p>(020) 233 – 0551/ (020) 233 – 0552</p>
-					<p>Street, Location</p>
+					<p>Off White tm Riverside Drive</p>
 					<p>Nairobi, Kenya</p>
 				</div>
 			</div>
